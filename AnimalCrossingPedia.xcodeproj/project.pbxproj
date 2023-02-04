@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		14A2D032298E5C000072FE2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2D031298E5C000072FE2A /* AppDelegate.swift */; };
 		14A2D034298E5C000072FE2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2D033298E5C000072FE2A /* SceneDelegate.swift */; };
-		14A2D036298E5C000072FE2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2D035298E5C000072FE2A /* ViewController.swift */; };
-		14A2D039298E5C000072FE2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A2D037298E5C000072FE2A /* Main.storyboard */; };
 		14A2D03B298E5C010072FE2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A2D03A298E5C010072FE2A /* Assets.xcassets */; };
 		14A2D03E298E5C010072FE2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A2D03C298E5C010072FE2A /* LaunchScreen.storyboard */; };
+		14A2D04D298E5F680072FE2A /* Villager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2D04C298E5F680072FE2A /* Villager.swift */; };
+		14A2D04F298E5F800072FE2A /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2D04E298E5F800072FE2A /* Song.swift */; };
+		14A2D051298E5FB70072FE2A /* Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2D050298E5FB70072FE2A /* Fish.swift */; };
+		14A2D053298E5FC40072FE2A /* Bugs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2D052298E5FC40072FE2A /* Bugs.swift */; };
+		14A2D05B298E61FC0072FE2A /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2D05A298E61FC0072FE2A /* Name.swift */; };
+		14A2D05D298E6ED40072FE2A /* Availability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2D05C298E6ED40072FE2A /* Availability.swift */; };
+		14A2D069298E81860072FE2A /* API-Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2D068298E81860072FE2A /* API-Constant.swift */; };
+		14A2D083298E8A460072FE2A /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2D082298E8A460072FE2A /* MainRouter.swift */; };
+		14A2D08A298E8D640072FE2A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2D089298E8D640072FE2A /* MainView.swift */; };
+		14A2D08F298E8DA50072FE2A /* mainProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2D08E298E8DA50072FE2A /* mainProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		14A2D02E298E5C000072FE2A /* AnimalCrossingPedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalCrossingPedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A2D031298E5C000072FE2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14A2D033298E5C000072FE2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		14A2D035298E5C000072FE2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		14A2D038298E5C000072FE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14A2D03A298E5C010072FE2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14A2D03D298E5C010072FE2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14A2D03F298E5C010072FE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14A2D04C298E5F680072FE2A /* Villager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Villager.swift; sourceTree = "<group>"; };
+		14A2D04E298E5F800072FE2A /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		14A2D050298E5FB70072FE2A /* Fish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fish.swift; sourceTree = "<group>"; };
+		14A2D052298E5FC40072FE2A /* Bugs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bugs.swift; sourceTree = "<group>"; };
+		14A2D05A298E61FC0072FE2A /* Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
+		14A2D05C298E6ED40072FE2A /* Availability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Availability.swift; sourceTree = "<group>"; };
+		14A2D068298E81860072FE2A /* API-Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API-Constant.swift"; sourceTree = "<group>"; };
+		14A2D082298E8A460072FE2A /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		14A2D089298E8D640072FE2A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		14A2D08E298E8DA50072FE2A /* mainProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,311 @@
 		14A2D030298E5C000072FE2A /* AnimalCrossingPedia */ = {
 			isa = PBXGroup;
 			children = (
-				14A2D031298E5C000072FE2A /* AppDelegate.swift */,
-				14A2D033298E5C000072FE2A /* SceneDelegate.swift */,
-				14A2D035298E5C000072FE2A /* ViewController.swift */,
-				14A2D037298E5C000072FE2A /* Main.storyboard */,
-				14A2D03A298E5C010072FE2A /* Assets.xcassets */,
-				14A2D03C298E5C010072FE2A /* LaunchScreen.storyboard */,
+				14A2D061298E80F80072FE2A /* app-utils */,
+				14A2D060298E80B90072FE2A /* app-modules */,
+				14A2D05F298E80B20072FE2A /* app-assets */,
+				14A2D05E298E80AB0072FE2A /* app-settings */,
 				14A2D03F298E5C010072FE2A /* Info.plist */,
 			);
 			path = AnimalCrossingPedia;
+			sourceTree = "<group>";
+		};
+		14A2D05E298E80AB0072FE2A /* app-settings */ = {
+			isa = PBXGroup;
+			children = (
+				14A2D031298E5C000072FE2A /* AppDelegate.swift */,
+				14A2D033298E5C000072FE2A /* SceneDelegate.swift */,
+			);
+			path = "app-settings";
+			sourceTree = "<group>";
+		};
+		14A2D05F298E80B20072FE2A /* app-assets */ = {
+			isa = PBXGroup;
+			children = (
+				14A2D03A298E5C010072FE2A /* Assets.xcassets */,
+				14A2D03C298E5C010072FE2A /* LaunchScreen.storyboard */,
+			);
+			path = "app-assets";
+			sourceTree = "<group>";
+		};
+		14A2D060298E80B90072FE2A /* app-modules */ = {
+			isa = PBXGroup;
+			children = (
+				14A2D06E298E83060072FE2A /* Villager-Modules */,
+				14A2D06D298E82F00072FE2A /* Creatures-Modules */,
+				14A2D064298E81300072FE2A /* song-module */,
+				14A2D063298E812A0072FE2A /* main-module */,
+			);
+			path = "app-modules";
+			sourceTree = "<group>";
+		};
+		14A2D061298E80F80072FE2A /* app-utils */ = {
+			isa = PBXGroup;
+			children = (
+				14A2D067298E81720072FE2A /* app-constants */,
+			);
+			path = "app-utils";
+			sourceTree = "<group>";
+		};
+		14A2D062298E81210072FE2A /* villager-module */ = {
+			isa = PBXGroup;
+			children = (
+				14A2D07D298E8A090072FE2A /* villager-view */,
+				14A2D07C298E8A030072FE2A /* villager-presenter */,
+				14A2D07B298E89FB0072FE2A /* villager-interactor */,
+				14A2D07A298E89F30072FE2A /* villager-router */,
+			);
+			path = "villager-module";
+			sourceTree = "<group>";
+		};
+		14A2D063298E812A0072FE2A /* main-module */ = {
+			isa = PBXGroup;
+			children = (
+				14A2D08D298E8D990072FE2A /* main-protocol */,
+				14A2D08C298E8D8F0072FE2A /* main-entity */,
+				14A2D08B298E8D880072FE2A /* main-interactor */,
+				14A2D088298E8D370072FE2A /* main-presnter */,
+				14A2D081298E8A350072FE2A /* main-router */,
+				14A2D07E298E8A190072FE2A /* main-view */,
+			);
+			path = "main-module";
+			sourceTree = "<group>";
+		};
+		14A2D064298E81300072FE2A /* song-module */ = {
+			isa = PBXGroup;
+			children = (
+				14A2D074298E899F0072FE2A /* song-entity */,
+			);
+			path = "song-module";
+			sourceTree = "<group>";
+		};
+		14A2D065298E81410072FE2A /* bugs-module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "bugs-module";
+			sourceTree = "<group>";
+		};
+		14A2D066298E81470072FE2A /* fish-module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "fish-module";
+			sourceTree = "<group>";
+		};
+		14A2D067298E81720072FE2A /* app-constants */ = {
+			isa = PBXGroup;
+			children = (
+				14A2D068298E81860072FE2A /* API-Constant.swift */,
+				14A2D05A298E61FC0072FE2A /* Name.swift */,
+				14A2D05C298E6ED40072FE2A /* Availability.swift */,
+			);
+			path = "app-constants";
+			sourceTree = "<group>";
+		};
+		14A2D06A298E81BC0072FE2A /* villagerDetail-module */ = {
+			isa = PBXGroup;
+			children = (
+				14A2D087298E8BDA0072FE2A /* villagerDetail-protocol */,
+				14A2D079298E89DB0072FE2A /* villagerDetail-view */,
+				14A2D078298E89D00072FE2A /* villagerDetail-presenter */,
+				14A2D076298E89BA0072FE2A /* villagerDetail-Interactor */,
+				14A2D075298E89AF0072FE2A /* villagerDetail-router */,
+			);
+			path = "villagerDetail-module";
+			sourceTree = "<group>";
+		};
+		14A2D06B298E81CF0072FE2A /* fishDetail-module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "fishDetail-module";
+			sourceTree = "<group>";
+		};
+		14A2D06C298E81D60072FE2A /* bugsDetail-module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "bugsDetail-module";
+			sourceTree = "<group>";
+		};
+		14A2D06D298E82F00072FE2A /* Creatures-Modules */ = {
+			isa = PBXGroup;
+			children = (
+				14A2D071298E895D0072FE2A /* bugs */,
+				14A2D070298E89590072FE2A /* fish */,
+			);
+			path = "Creatures-Modules";
+			sourceTree = "<group>";
+		};
+		14A2D06E298E83060072FE2A /* Villager-Modules */ = {
+			isa = PBXGroup;
+			children = (
+				14A2D06F298E894D0072FE2A /* villager-entity */,
+				14A2D06A298E81BC0072FE2A /* villagerDetail-module */,
+				14A2D062298E81210072FE2A /* villager-module */,
+			);
+			path = "Villager-Modules";
+			sourceTree = "<group>";
+		};
+		14A2D06F298E894D0072FE2A /* villager-entity */ = {
+			isa = PBXGroup;
+			children = (
+				14A2D04C298E5F680072FE2A /* Villager.swift */,
+			);
+			path = "villager-entity";
+			sourceTree = "<group>";
+		};
+		14A2D070298E89590072FE2A /* fish */ = {
+			isa = PBXGroup;
+			children = (
+				14A2D073298E89840072FE2A /* fish-entity */,
+				14A2D06B298E81CF0072FE2A /* fishDetail-module */,
+				14A2D066298E81470072FE2A /* fish-module */,
+			);
+			path = fish;
+			sourceTree = "<group>";
+		};
+		14A2D071298E895D0072FE2A /* bugs */ = {
+			isa = PBXGroup;
+			children = (
+				14A2D072298E89790072FE2A /* bug-entity */,
+				14A2D06C298E81D60072FE2A /* bugsDetail-module */,
+				14A2D065298E81410072FE2A /* bugs-module */,
+			);
+			path = bugs;
+			sourceTree = "<group>";
+		};
+		14A2D072298E89790072FE2A /* bug-entity */ = {
+			isa = PBXGroup;
+			children = (
+				14A2D052298E5FC40072FE2A /* Bugs.swift */,
+			);
+			path = "bug-entity";
+			sourceTree = "<group>";
+		};
+		14A2D073298E89840072FE2A /* fish-entity */ = {
+			isa = PBXGroup;
+			children = (
+				14A2D050298E5FB70072FE2A /* Fish.swift */,
+			);
+			path = "fish-entity";
+			sourceTree = "<group>";
+		};
+		14A2D074298E899F0072FE2A /* song-entity */ = {
+			isa = PBXGroup;
+			children = (
+				14A2D04E298E5F800072FE2A /* Song.swift */,
+			);
+			path = "song-entity";
+			sourceTree = "<group>";
+		};
+		14A2D075298E89AF0072FE2A /* villagerDetail-router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "villagerDetail-router";
+			sourceTree = "<group>";
+		};
+		14A2D076298E89BA0072FE2A /* villagerDetail-Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "villagerDetail-Interactor";
+			sourceTree = "<group>";
+		};
+		14A2D078298E89D00072FE2A /* villagerDetail-presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "villagerDetail-presenter";
+			sourceTree = "<group>";
+		};
+		14A2D079298E89DB0072FE2A /* villagerDetail-view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "villagerDetail-view";
+			sourceTree = "<group>";
+		};
+		14A2D07A298E89F30072FE2A /* villager-router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "villager-router";
+			sourceTree = "<group>";
+		};
+		14A2D07B298E89FB0072FE2A /* villager-interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "villager-interactor";
+			sourceTree = "<group>";
+		};
+		14A2D07C298E8A030072FE2A /* villager-presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "villager-presenter";
+			sourceTree = "<group>";
+		};
+		14A2D07D298E8A090072FE2A /* villager-view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "villager-view";
+			sourceTree = "<group>";
+		};
+		14A2D07E298E8A190072FE2A /* main-view */ = {
+			isa = PBXGroup;
+			children = (
+				14A2D089298E8D640072FE2A /* MainView.swift */,
+			);
+			path = "main-view";
+			sourceTree = "<group>";
+		};
+		14A2D081298E8A350072FE2A /* main-router */ = {
+			isa = PBXGroup;
+			children = (
+				14A2D082298E8A460072FE2A /* MainRouter.swift */,
+			);
+			path = "main-router";
+			sourceTree = "<group>";
+		};
+		14A2D087298E8BDA0072FE2A /* villagerDetail-protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "villagerDetail-protocol";
+			sourceTree = "<group>";
+		};
+		14A2D088298E8D370072FE2A /* main-presnter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "main-presnter";
+			sourceTree = "<group>";
+		};
+		14A2D08B298E8D880072FE2A /* main-interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "main-interactor";
+			sourceTree = "<group>";
+		};
+		14A2D08C298E8D8F0072FE2A /* main-entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "main-entity";
+			sourceTree = "<group>";
+		};
+		14A2D08D298E8D990072FE2A /* main-protocol */ = {
+			isa = PBXGroup;
+			children = (
+				14A2D08E298E8DA50072FE2A /* mainProtocols.swift */,
+			);
+			path = "main-protocol";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +439,6 @@
 			files = (
 				14A2D03E298E5C010072FE2A /* LaunchScreen.storyboard in Resources */,
 				14A2D03B298E5C010072FE2A /* Assets.xcassets in Resources */,
-				14A2D039298E5C000072FE2A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +449,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14A2D036298E5C000072FE2A /* ViewController.swift in Sources */,
+				14A2D08F298E8DA50072FE2A /* mainProtocols.swift in Sources */,
+				14A2D051298E5FB70072FE2A /* Fish.swift in Sources */,
+				14A2D04F298E5F800072FE2A /* Song.swift in Sources */,
+				14A2D05D298E6ED40072FE2A /* Availability.swift in Sources */,
+				14A2D069298E81860072FE2A /* API-Constant.swift in Sources */,
+				14A2D04D298E5F680072FE2A /* Villager.swift in Sources */,
+				14A2D083298E8A460072FE2A /* MainRouter.swift in Sources */,
+				14A2D05B298E61FC0072FE2A /* Name.swift in Sources */,
+				14A2D08A298E8D640072FE2A /* MainView.swift in Sources */,
 				14A2D032298E5C000072FE2A /* AppDelegate.swift in Sources */,
+				14A2D053298E5FC40072FE2A /* Bugs.swift in Sources */,
 				14A2D034298E5C000072FE2A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +467,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		14A2D037298E5C000072FE2A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				14A2D038298E5C000072FE2A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		14A2D03C298E5C010072FE2A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +604,10 @@
 				INFOPLIST_FILE = AnimalCrossingPedia/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,9 +633,10 @@
 				INFOPLIST_FILE = AnimalCrossingPedia/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
