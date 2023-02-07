@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		143F438A2992031A00812DD8 /* SongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F43892992031A00812DD8 /* SongViewController.swift */; };
+		143F438C2992032E00812DD8 /* SongRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F438B2992032E00812DD8 /* SongRouter.swift */; };
+		143F438E2992033900812DD8 /* SongPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F438D2992033900812DD8 /* SongPresenter.swift */; };
+		143F43902992034700812DD8 /* SongInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F438F2992034700812DD8 /* SongInteractor.swift */; };
+		143F43922992035100812DD8 /* SongProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F43912992035100812DD8 /* SongProtocol.swift */; };
+		143F43952992049800812DD8 /* VillagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F43942992049800812DD8 /* VillagerProtocol.swift */; };
+		143F43972992085700812DD8 /* VillagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F43962992085700812DD8 /* VillagerViewController.swift */; };
+		143F43992992086700812DD8 /* VillagerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F43982992086700812DD8 /* VillagerDetailViewController.swift */; };
+		143F439B299208E500812DD8 /* VillagerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F439A299208E500812DD8 /* VillagerPresenter.swift */; };
+		143F439D299208EE00812DD8 /* VillagerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F439C299208EE00812DD8 /* VillagerInteractor.swift */; };
+		143F439F299208FF00812DD8 /* VillagerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F439E299208FF00812DD8 /* VillagerRouter.swift */; };
+		143F43A32992102700812DD8 /* BugProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F43A22992102700812DD8 /* BugProtocol.swift */; };
+		143F43A52992103400812DD8 /* FishProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F43A42992103400812DD8 /* FishProtocol.swift */; };
+		143F43AF2992198E00812DD8 /* BugRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F43AE2992198E00812DD8 /* BugRouter.swift */; };
+		143F43B12992199700812DD8 /* BugInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F43B02992199700812DD8 /* BugInteractor.swift */; };
+		143F43B3299219A000812DD8 /* BugPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F43B2299219A000812DD8 /* BugPresenter.swift */; };
+		143F43B5299219CD00812DD8 /* BugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F43B4299219CD00812DD8 /* BugViewController.swift */; };
+		143F43B7299219DE00812DD8 /* BugDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F43B6299219DE00812DD8 /* BugDetailViewController.swift */; };
+		143F43B9299219FC00812DD8 /* FishRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F43B8299219FC00812DD8 /* FishRouter.swift */; };
+		143F43BB29921A0600812DD8 /* FishInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F43BA29921A0600812DD8 /* FishInteractor.swift */; };
+		143F43BD29921A0E00812DD8 /* FishPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F43BC29921A0E00812DD8 /* FishPresenter.swift */; };
+		143F43BF29921A1B00812DD8 /* FishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F43BE29921A1B00812DD8 /* FishViewController.swift */; };
+		143F43C129921A3200812DD8 /* FishDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F43C029921A3200812DD8 /* FishDetailViewController.swift */; };
+		143F43C82992793E00812DD8 /* MainCollectionViewcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F43C72992793E00812DD8 /* MainCollectionViewcell.swift */; };
+		143FC21A2990AC52002E82EA /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143FC2192990AC52002E82EA /* MainInteractor.swift */; };
+		143FC21C2990AC5E002E82EA /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143FC21B2990AC5E002E82EA /* MainPresenter.swift */; };
+		143FC21F2990B366002E82EA /* MainEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143FC21E2990B366002E82EA /* MainEntity.swift */; };
 		14A2D032298E5C000072FE2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2D031298E5C000072FE2A /* AppDelegate.swift */; };
 		14A2D034298E5C000072FE2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2D033298E5C000072FE2A /* SceneDelegate.swift */; };
 		14A2D03B298E5C010072FE2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A2D03A298E5C010072FE2A /* Assets.xcassets */; };
@@ -19,11 +46,38 @@
 		14A2D05D298E6ED40072FE2A /* Availability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2D05C298E6ED40072FE2A /* Availability.swift */; };
 		14A2D069298E81860072FE2A /* API-Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2D068298E81860072FE2A /* API-Constant.swift */; };
 		14A2D083298E8A460072FE2A /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2D082298E8A460072FE2A /* MainRouter.swift */; };
-		14A2D08A298E8D640072FE2A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2D089298E8D640072FE2A /* MainView.swift */; };
+		14A2D08A298E8D640072FE2A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2D089298E8D640072FE2A /* MainViewController.swift */; };
 		14A2D08F298E8DA50072FE2A /* mainProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2D08E298E8DA50072FE2A /* mainProtocols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		143F43892992031A00812DD8 /* SongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewController.swift; sourceTree = "<group>"; };
+		143F438B2992032E00812DD8 /* SongRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongRouter.swift; sourceTree = "<group>"; };
+		143F438D2992033900812DD8 /* SongPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongPresenter.swift; sourceTree = "<group>"; };
+		143F438F2992034700812DD8 /* SongInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongInteractor.swift; sourceTree = "<group>"; };
+		143F43912992035100812DD8 /* SongProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongProtocol.swift; sourceTree = "<group>"; };
+		143F43942992049800812DD8 /* VillagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerProtocol.swift; sourceTree = "<group>"; };
+		143F43962992085700812DD8 /* VillagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerViewController.swift; sourceTree = "<group>"; };
+		143F43982992086700812DD8 /* VillagerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerDetailViewController.swift; sourceTree = "<group>"; };
+		143F439A299208E500812DD8 /* VillagerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerPresenter.swift; sourceTree = "<group>"; };
+		143F439C299208EE00812DD8 /* VillagerInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerInteractor.swift; sourceTree = "<group>"; };
+		143F439E299208FF00812DD8 /* VillagerRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerRouter.swift; sourceTree = "<group>"; };
+		143F43A22992102700812DD8 /* BugProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugProtocol.swift; sourceTree = "<group>"; };
+		143F43A42992103400812DD8 /* FishProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishProtocol.swift; sourceTree = "<group>"; };
+		143F43AE2992198E00812DD8 /* BugRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugRouter.swift; sourceTree = "<group>"; };
+		143F43B02992199700812DD8 /* BugInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugInteractor.swift; sourceTree = "<group>"; };
+		143F43B2299219A000812DD8 /* BugPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugPresenter.swift; sourceTree = "<group>"; };
+		143F43B4299219CD00812DD8 /* BugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugViewController.swift; sourceTree = "<group>"; };
+		143F43B6299219DE00812DD8 /* BugDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugDetailViewController.swift; sourceTree = "<group>"; };
+		143F43B8299219FC00812DD8 /* FishRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishRouter.swift; sourceTree = "<group>"; };
+		143F43BA29921A0600812DD8 /* FishInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishInteractor.swift; sourceTree = "<group>"; };
+		143F43BC29921A0E00812DD8 /* FishPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishPresenter.swift; sourceTree = "<group>"; };
+		143F43BE29921A1B00812DD8 /* FishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishViewController.swift; sourceTree = "<group>"; };
+		143F43C029921A3200812DD8 /* FishDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishDetailViewController.swift; sourceTree = "<group>"; };
+		143F43C72992793E00812DD8 /* MainCollectionViewcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewcell.swift; sourceTree = "<group>"; };
+		143FC2192990AC52002E82EA /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		143FC21B2990AC5E002E82EA /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		143FC21E2990B366002E82EA /* MainEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEntity.swift; sourceTree = "<group>"; };
 		14A2D02E298E5C000072FE2A /* AnimalCrossingPedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalCrossingPedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A2D031298E5C000072FE2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14A2D033298E5C000072FE2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,7 +92,7 @@
 		14A2D05C298E6ED40072FE2A /* Availability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Availability.swift; sourceTree = "<group>"; };
 		14A2D068298E81860072FE2A /* API-Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API-Constant.swift"; sourceTree = "<group>"; };
 		14A2D082298E8A460072FE2A /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
-		14A2D089298E8D640072FE2A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		14A2D089298E8D640072FE2A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		14A2D08E298E8DA50072FE2A /* mainProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,6 +107,160 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		143F4384299202C100812DD8 /* song-protocol */ = {
+			isa = PBXGroup;
+			children = (
+				143F43912992035100812DD8 /* SongProtocol.swift */,
+			);
+			path = "song-protocol";
+			sourceTree = "<group>";
+		};
+		143F4385299202C800812DD8 /* song-interactor */ = {
+			isa = PBXGroup;
+			children = (
+				143F438F2992034700812DD8 /* SongInteractor.swift */,
+			);
+			path = "song-interactor";
+			sourceTree = "<group>";
+		};
+		143F4386299202D100812DD8 /* song-presenter */ = {
+			isa = PBXGroup;
+			children = (
+				143F438D2992033900812DD8 /* SongPresenter.swift */,
+			);
+			path = "song-presenter";
+			sourceTree = "<group>";
+		};
+		143F4387299202D900812DD8 /* song-router */ = {
+			isa = PBXGroup;
+			children = (
+				143F438B2992032E00812DD8 /* SongRouter.swift */,
+			);
+			path = "song-router";
+			sourceTree = "<group>";
+		};
+		143F4388299202E100812DD8 /* song-view */ = {
+			isa = PBXGroup;
+			children = (
+				143F43892992031A00812DD8 /* SongViewController.swift */,
+			);
+			path = "song-view";
+			sourceTree = "<group>";
+		};
+		143F43932992048900812DD8 /* villager-protocol */ = {
+			isa = PBXGroup;
+			children = (
+				143F43942992049800812DD8 /* VillagerProtocol.swift */,
+			);
+			path = "villager-protocol";
+			sourceTree = "<group>";
+		};
+		143F43A02992101200812DD8 /* bug-protocol */ = {
+			isa = PBXGroup;
+			children = (
+				143F43A22992102700812DD8 /* BugProtocol.swift */,
+			);
+			path = "bug-protocol";
+			sourceTree = "<group>";
+		};
+		143F43A12992101B00812DD8 /* fish-protocol */ = {
+			isa = PBXGroup;
+			children = (
+				143F43A42992103400812DD8 /* FishProtocol.swift */,
+			);
+			path = "fish-protocol";
+			sourceTree = "<group>";
+		};
+		143F43A6299210F900812DD8 /* bug-view */ = {
+			isa = PBXGroup;
+			children = (
+				143F43B4299219CD00812DD8 /* BugViewController.swift */,
+				143F43B6299219DE00812DD8 /* BugDetailViewController.swift */,
+			);
+			path = "bug-view";
+			sourceTree = "<group>";
+		};
+		143F43A72992110100812DD8 /* bug-presenter */ = {
+			isa = PBXGroup;
+			children = (
+				143F43B2299219A000812DD8 /* BugPresenter.swift */,
+			);
+			path = "bug-presenter";
+			sourceTree = "<group>";
+		};
+		143F43A82992110700812DD8 /* bug-interactor */ = {
+			isa = PBXGroup;
+			children = (
+				143F43B02992199700812DD8 /* BugInteractor.swift */,
+			);
+			path = "bug-interactor";
+			sourceTree = "<group>";
+		};
+		143F43A92992110C00812DD8 /* bug-router */ = {
+			isa = PBXGroup;
+			children = (
+				143F43AE2992198E00812DD8 /* BugRouter.swift */,
+			);
+			path = "bug-router";
+			sourceTree = "<group>";
+		};
+		143F43AA2992111200812DD8 /* fish-view */ = {
+			isa = PBXGroup;
+			children = (
+				143F43BE29921A1B00812DD8 /* FishViewController.swift */,
+				143F43C029921A3200812DD8 /* FishDetailViewController.swift */,
+			);
+			path = "fish-view";
+			sourceTree = "<group>";
+		};
+		143F43AB2992111A00812DD8 /* fish-presenter */ = {
+			isa = PBXGroup;
+			children = (
+				143F43BC29921A0E00812DD8 /* FishPresenter.swift */,
+			);
+			path = "fish-presenter";
+			sourceTree = "<group>";
+		};
+		143F43AC2992111F00812DD8 /* fish-interactor */ = {
+			isa = PBXGroup;
+			children = (
+				143F43BA29921A0600812DD8 /* FishInteractor.swift */,
+			);
+			path = "fish-interactor";
+			sourceTree = "<group>";
+		};
+		143F43AD2992112600812DD8 /* fish-router */ = {
+			isa = PBXGroup;
+			children = (
+				143F43B8299219FC00812DD8 /* FishRouter.swift */,
+			);
+			path = "fish-router";
+			sourceTree = "<group>";
+		};
+		143FC21D2990B350002E82EA /* main-entity */ = {
+			isa = PBXGroup;
+			children = (
+				143FC21E2990B366002E82EA /* MainEntity.swift */,
+			);
+			path = "main-entity";
+			sourceTree = "<group>";
+		};
+		143FC2202990BC6B002E82EA /* app-custom-ui */ = {
+			isa = PBXGroup;
+			children = (
+				143FC2212990BEC0002E82EA /* main-collectionViewCell */,
+			);
+			path = "app-custom-ui";
+			sourceTree = "<group>";
+		};
+		143FC2212990BEC0002E82EA /* main-collectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				143F43C72992793E00812DD8 /* MainCollectionViewcell.swift */,
+			);
+			path = "main-collectionViewCell";
+			sourceTree = "<group>";
+		};
 		14A2D025298E5C000072FE2A = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +301,7 @@
 		14A2D05F298E80B20072FE2A /* app-assets */ = {
 			isa = PBXGroup;
 			children = (
+				143FC2202990BC6B002E82EA /* app-custom-ui */,
 				14A2D03A298E5C010072FE2A /* Assets.xcassets */,
 				14A2D03C298E5C010072FE2A /* LaunchScreen.storyboard */,
 			);
@@ -132,8 +341,8 @@
 		14A2D063298E812A0072FE2A /* main-module */ = {
 			isa = PBXGroup;
 			children = (
+				143FC21D2990B350002E82EA /* main-entity */,
 				14A2D08D298E8D990072FE2A /* main-protocol */,
-				14A2D08C298E8D8F0072FE2A /* main-entity */,
 				14A2D08B298E8D880072FE2A /* main-interactor */,
 				14A2D088298E8D370072FE2A /* main-presnter */,
 				14A2D081298E8A350072FE2A /* main-router */,
@@ -145,6 +354,11 @@
 		14A2D064298E81300072FE2A /* song-module */ = {
 			isa = PBXGroup;
 			children = (
+				143F4388299202E100812DD8 /* song-view */,
+				143F4387299202D900812DD8 /* song-router */,
+				143F4386299202D100812DD8 /* song-presenter */,
+				143F4385299202C800812DD8 /* song-interactor */,
+				143F4384299202C100812DD8 /* song-protocol */,
 				14A2D074298E899F0072FE2A /* song-entity */,
 			);
 			path = "song-module";
@@ -153,6 +367,10 @@
 		14A2D065298E81410072FE2A /* bugs-module */ = {
 			isa = PBXGroup;
 			children = (
+				143F43A92992110C00812DD8 /* bug-router */,
+				143F43A82992110700812DD8 /* bug-interactor */,
+				143F43A72992110100812DD8 /* bug-presenter */,
+				143F43A6299210F900812DD8 /* bug-view */,
 			);
 			path = "bugs-module";
 			sourceTree = "<group>";
@@ -160,6 +378,10 @@
 		14A2D066298E81470072FE2A /* fish-module */ = {
 			isa = PBXGroup;
 			children = (
+				143F43AD2992112600812DD8 /* fish-router */,
+				143F43AC2992111F00812DD8 /* fish-interactor */,
+				143F43AB2992111A00812DD8 /* fish-presenter */,
+				143F43AA2992111200812DD8 /* fish-view */,
 			);
 			path = "fish-module";
 			sourceTree = "<group>";
@@ -174,32 +396,6 @@
 			path = "app-constants";
 			sourceTree = "<group>";
 		};
-		14A2D06A298E81BC0072FE2A /* villagerDetail-module */ = {
-			isa = PBXGroup;
-			children = (
-				14A2D087298E8BDA0072FE2A /* villagerDetail-protocol */,
-				14A2D079298E89DB0072FE2A /* villagerDetail-view */,
-				14A2D078298E89D00072FE2A /* villagerDetail-presenter */,
-				14A2D076298E89BA0072FE2A /* villagerDetail-Interactor */,
-				14A2D075298E89AF0072FE2A /* villagerDetail-router */,
-			);
-			path = "villagerDetail-module";
-			sourceTree = "<group>";
-		};
-		14A2D06B298E81CF0072FE2A /* fishDetail-module */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "fishDetail-module";
-			sourceTree = "<group>";
-		};
-		14A2D06C298E81D60072FE2A /* bugsDetail-module */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "bugsDetail-module";
-			sourceTree = "<group>";
-		};
 		14A2D06D298E82F00072FE2A /* Creatures-Modules */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,8 +408,8 @@
 		14A2D06E298E83060072FE2A /* Villager-Modules */ = {
 			isa = PBXGroup;
 			children = (
+				143F43932992048900812DD8 /* villager-protocol */,
 				14A2D06F298E894D0072FE2A /* villager-entity */,
-				14A2D06A298E81BC0072FE2A /* villagerDetail-module */,
 				14A2D062298E81210072FE2A /* villager-module */,
 			);
 			path = "Villager-Modules";
@@ -230,8 +426,8 @@
 		14A2D070298E89590072FE2A /* fish */ = {
 			isa = PBXGroup;
 			children = (
+				143F43A12992101B00812DD8 /* fish-protocol */,
 				14A2D073298E89840072FE2A /* fish-entity */,
-				14A2D06B298E81CF0072FE2A /* fishDetail-module */,
 				14A2D066298E81470072FE2A /* fish-module */,
 			);
 			path = fish;
@@ -240,8 +436,8 @@
 		14A2D071298E895D0072FE2A /* bugs */ = {
 			isa = PBXGroup;
 			children = (
+				143F43A02992101200812DD8 /* bug-protocol */,
 				14A2D072298E89790072FE2A /* bug-entity */,
-				14A2D06C298E81D60072FE2A /* bugsDetail-module */,
 				14A2D065298E81410072FE2A /* bugs-module */,
 			);
 			path = bugs;
@@ -271,37 +467,10 @@
 			path = "song-entity";
 			sourceTree = "<group>";
 		};
-		14A2D075298E89AF0072FE2A /* villagerDetail-router */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "villagerDetail-router";
-			sourceTree = "<group>";
-		};
-		14A2D076298E89BA0072FE2A /* villagerDetail-Interactor */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "villagerDetail-Interactor";
-			sourceTree = "<group>";
-		};
-		14A2D078298E89D00072FE2A /* villagerDetail-presenter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "villagerDetail-presenter";
-			sourceTree = "<group>";
-		};
-		14A2D079298E89DB0072FE2A /* villagerDetail-view */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "villagerDetail-view";
-			sourceTree = "<group>";
-		};
 		14A2D07A298E89F30072FE2A /* villager-router */ = {
 			isa = PBXGroup;
 			children = (
+				143F439E299208FF00812DD8 /* VillagerRouter.swift */,
 			);
 			path = "villager-router";
 			sourceTree = "<group>";
@@ -309,6 +478,7 @@
 		14A2D07B298E89FB0072FE2A /* villager-interactor */ = {
 			isa = PBXGroup;
 			children = (
+				143F439C299208EE00812DD8 /* VillagerInteractor.swift */,
 			);
 			path = "villager-interactor";
 			sourceTree = "<group>";
@@ -316,6 +486,7 @@
 		14A2D07C298E8A030072FE2A /* villager-presenter */ = {
 			isa = PBXGroup;
 			children = (
+				143F439A299208E500812DD8 /* VillagerPresenter.swift */,
 			);
 			path = "villager-presenter";
 			sourceTree = "<group>";
@@ -323,6 +494,8 @@
 		14A2D07D298E8A090072FE2A /* villager-view */ = {
 			isa = PBXGroup;
 			children = (
+				143F43962992085700812DD8 /* VillagerViewController.swift */,
+				143F43982992086700812DD8 /* VillagerDetailViewController.swift */,
 			);
 			path = "villager-view";
 			sourceTree = "<group>";
@@ -330,7 +503,7 @@
 		14A2D07E298E8A190072FE2A /* main-view */ = {
 			isa = PBXGroup;
 			children = (
-				14A2D089298E8D640072FE2A /* MainView.swift */,
+				14A2D089298E8D640072FE2A /* MainViewController.swift */,
 			);
 			path = "main-view";
 			sourceTree = "<group>";
@@ -343,16 +516,10 @@
 			path = "main-router";
 			sourceTree = "<group>";
 		};
-		14A2D087298E8BDA0072FE2A /* villagerDetail-protocol */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "villagerDetail-protocol";
-			sourceTree = "<group>";
-		};
 		14A2D088298E8D370072FE2A /* main-presnter */ = {
 			isa = PBXGroup;
 			children = (
+				143FC21B2990AC5E002E82EA /* MainPresenter.swift */,
 			);
 			path = "main-presnter";
 			sourceTree = "<group>";
@@ -360,15 +527,9 @@
 		14A2D08B298E8D880072FE2A /* main-interactor */ = {
 			isa = PBXGroup;
 			children = (
+				143FC2192990AC52002E82EA /* MainInteractor.swift */,
 			);
 			path = "main-interactor";
-			sourceTree = "<group>";
-		};
-		14A2D08C298E8D8F0072FE2A /* main-entity */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "main-entity";
 			sourceTree = "<group>";
 		};
 		14A2D08D298E8D990072FE2A /* main-protocol */ = {
@@ -450,17 +611,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				14A2D08F298E8DA50072FE2A /* mainProtocols.swift in Sources */,
+				143F438C2992032E00812DD8 /* SongRouter.swift in Sources */,
 				14A2D051298E5FB70072FE2A /* Fish.swift in Sources */,
+				143F43C82992793E00812DD8 /* MainCollectionViewcell.swift in Sources */,
+				143F43B9299219FC00812DD8 /* FishRouter.swift in Sources */,
+				143F43BB29921A0600812DD8 /* FishInteractor.swift in Sources */,
+				143F43B3299219A000812DD8 /* BugPresenter.swift in Sources */,
+				143F43AF2992198E00812DD8 /* BugRouter.swift in Sources */,
+				143F438A2992031A00812DD8 /* SongViewController.swift in Sources */,
+				143F43A32992102700812DD8 /* BugProtocol.swift in Sources */,
+				143F439B299208E500812DD8 /* VillagerPresenter.swift in Sources */,
 				14A2D04F298E5F800072FE2A /* Song.swift in Sources */,
 				14A2D05D298E6ED40072FE2A /* Availability.swift in Sources */,
+				143FC21A2990AC52002E82EA /* MainInteractor.swift in Sources */,
+				143F43972992085700812DD8 /* VillagerViewController.swift in Sources */,
 				14A2D069298E81860072FE2A /* API-Constant.swift in Sources */,
+				143F43C129921A3200812DD8 /* FishDetailViewController.swift in Sources */,
+				143F438E2992033900812DD8 /* SongPresenter.swift in Sources */,
+				143F43B7299219DE00812DD8 /* BugDetailViewController.swift in Sources */,
+				143F439F299208FF00812DD8 /* VillagerRouter.swift in Sources */,
+				143F43902992034700812DD8 /* SongInteractor.swift in Sources */,
+				143F43B5299219CD00812DD8 /* BugViewController.swift in Sources */,
+				143F43B12992199700812DD8 /* BugInteractor.swift in Sources */,
 				14A2D04D298E5F680072FE2A /* Villager.swift in Sources */,
+				143F43952992049800812DD8 /* VillagerProtocol.swift in Sources */,
+				143F43922992035100812DD8 /* SongProtocol.swift in Sources */,
 				14A2D083298E8A460072FE2A /* MainRouter.swift in Sources */,
 				14A2D05B298E61FC0072FE2A /* Name.swift in Sources */,
-				14A2D08A298E8D640072FE2A /* MainView.swift in Sources */,
+				143F43992992086700812DD8 /* VillagerDetailViewController.swift in Sources */,
+				143FC21C2990AC5E002E82EA /* MainPresenter.swift in Sources */,
+				143F439D299208EE00812DD8 /* VillagerInteractor.swift in Sources */,
+				143F43BF29921A1B00812DD8 /* FishViewController.swift in Sources */,
+				14A2D08A298E8D640072FE2A /* MainViewController.swift in Sources */,
+				143F43BD29921A0E00812DD8 /* FishPresenter.swift in Sources */,
 				14A2D032298E5C000072FE2A /* AppDelegate.swift in Sources */,
 				14A2D053298E5FC40072FE2A /* Bugs.swift in Sources */,
+				143F43A52992103400812DD8 /* FishProtocol.swift in Sources */,
 				14A2D034298E5C000072FE2A /* SceneDelegate.swift in Sources */,
+				143FC21F2990B366002E82EA /* MainEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
