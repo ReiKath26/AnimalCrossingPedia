@@ -34,28 +34,28 @@ class MainRouter: AnyMainRouter
         return route
     }
     
-    func pushVillagerPage(navigationConroller:UINavigationController)
+    func pushVillagerPage(navigationConroller navigationController:UINavigationController)
     {
         let villagerRouter = MainVillagerRouter.create()
         guard let vc = villagerRouter.entry else {return}
         navigationConroller.pushViewController(vc, animated: true)
     }
     
-    func pushFishPage(navigationController: UINavigationController)
+    func pushFishPage(navigationConroller navigationController: UINavigationController)
     {
         let fishRouter = FishRouter.create()
         guard let vc = fishRouter.entry else {return}
         navigationController.pushViewController(vc, animated: true)
     }
     
-    func pushBugPage(navigationController: UINavigationController)
+    func pushBugPage(navigationConroller navigationController: UINavigationController)
     {
         let bugRouter = BugRouter.createMainPage()
         guard let vc = bugRouter.entry else {return}
         navigationController.pushViewController(vc, animated: true)
     }
     
-    func pushSongPage(navigationController: UINavigationController)
+    func pushSongPage(navigationConroller navigationController: UINavigationController)
     {
         let songRouter = SongRouter.create()
         guard let vc = songRouter.entry else {return}

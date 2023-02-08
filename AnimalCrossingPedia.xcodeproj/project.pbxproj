@@ -34,6 +34,10 @@
 		143FC21A2990AC52002E82EA /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143FC2192990AC52002E82EA /* MainInteractor.swift */; };
 		143FC21C2990AC5E002E82EA /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143FC21B2990AC5E002E82EA /* MainPresenter.swift */; };
 		143FC21F2990B366002E82EA /* MainEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143FC21E2990B366002E82EA /* MainEntity.swift */; };
+		14846C3829934C2900DC2DD4 /* VillagerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14846C3729934C2900DC2DD4 /* VillagerCollectionViewCell.swift */; };
+		14846C3E29934CE800DC2DD4 /* FishCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14846C3D29934CE800DC2DD4 /* FishCollectionViewCell.swift */; };
+		14846C4029934CF200DC2DD4 /* BugCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14846C3F29934CF200DC2DD4 /* BugCollectionViewCell.swift */; };
+		14846C4229934CFC00DC2DD4 /* SongCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14846C4129934CFC00DC2DD4 /* SongCollectionViewCell.swift */; };
 		14A2D032298E5C000072FE2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2D031298E5C000072FE2A /* AppDelegate.swift */; };
 		14A2D034298E5C000072FE2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A2D033298E5C000072FE2A /* SceneDelegate.swift */; };
 		14A2D03B298E5C010072FE2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A2D03A298E5C010072FE2A /* Assets.xcassets */; };
@@ -78,6 +82,10 @@
 		143FC2192990AC52002E82EA /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
 		143FC21B2990AC5E002E82EA /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		143FC21E2990B366002E82EA /* MainEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEntity.swift; sourceTree = "<group>"; };
+		14846C3729934C2900DC2DD4 /* VillagerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerCollectionViewCell.swift; sourceTree = "<group>"; };
+		14846C3D29934CE800DC2DD4 /* FishCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishCollectionViewCell.swift; sourceTree = "<group>"; };
+		14846C3F29934CF200DC2DD4 /* BugCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugCollectionViewCell.swift; sourceTree = "<group>"; };
+		14846C4129934CFC00DC2DD4 /* SongCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCollectionViewCell.swift; sourceTree = "<group>"; };
 		14A2D02E298E5C000072FE2A /* AnimalCrossingPedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalCrossingPedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14A2D031298E5C000072FE2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14A2D033298E5C000072FE2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -248,6 +256,10 @@
 		143FC2202990BC6B002E82EA /* app-custom-ui */ = {
 			isa = PBXGroup;
 			children = (
+				14846C3B29934C8000DC2DD4 /* song-collectionViewCell */,
+				14846C3A29934C6500DC2DD4 /* bug-collectionViewCell */,
+				14846C3929934C5600DC2DD4 /* fish-collectionViewCell */,
+				14846C3629934C0F00DC2DD4 /* villager-collectionViewCell */,
 				143FC2212990BEC0002E82EA /* main-collectionViewCell */,
 			);
 			path = "app-custom-ui";
@@ -259,6 +271,38 @@
 				143F43C72992793E00812DD8 /* MainCollectionViewcell.swift */,
 			);
 			path = "main-collectionViewCell";
+			sourceTree = "<group>";
+		};
+		14846C3629934C0F00DC2DD4 /* villager-collectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				14846C3729934C2900DC2DD4 /* VillagerCollectionViewCell.swift */,
+			);
+			path = "villager-collectionViewCell";
+			sourceTree = "<group>";
+		};
+		14846C3929934C5600DC2DD4 /* fish-collectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				14846C3D29934CE800DC2DD4 /* FishCollectionViewCell.swift */,
+			);
+			path = "fish-collectionViewCell";
+			sourceTree = "<group>";
+		};
+		14846C3A29934C6500DC2DD4 /* bug-collectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				14846C3F29934CF200DC2DD4 /* BugCollectionViewCell.swift */,
+			);
+			path = "bug-collectionViewCell";
+			sourceTree = "<group>";
+		};
+		14846C3B29934C8000DC2DD4 /* song-collectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				14846C4129934CFC00DC2DD4 /* SongCollectionViewCell.swift */,
+			);
+			path = "song-collectionViewCell";
 			sourceTree = "<group>";
 		};
 		14A2D025298E5C000072FE2A = {
@@ -618,16 +662,20 @@
 				143F43BB29921A0600812DD8 /* FishInteractor.swift in Sources */,
 				143F43B3299219A000812DD8 /* BugPresenter.swift in Sources */,
 				143F43AF2992198E00812DD8 /* BugRouter.swift in Sources */,
+				14846C3829934C2900DC2DD4 /* VillagerCollectionViewCell.swift in Sources */,
 				143F438A2992031A00812DD8 /* SongViewController.swift in Sources */,
 				143F43A32992102700812DD8 /* BugProtocol.swift in Sources */,
 				143F439B299208E500812DD8 /* VillagerPresenter.swift in Sources */,
 				14A2D04F298E5F800072FE2A /* Song.swift in Sources */,
 				14A2D05D298E6ED40072FE2A /* Availability.swift in Sources */,
 				143FC21A2990AC52002E82EA /* MainInteractor.swift in Sources */,
+				14846C4229934CFC00DC2DD4 /* SongCollectionViewCell.swift in Sources */,
 				143F43972992085700812DD8 /* VillagerViewController.swift in Sources */,
 				14A2D069298E81860072FE2A /* API-Constant.swift in Sources */,
+				14846C4029934CF200DC2DD4 /* BugCollectionViewCell.swift in Sources */,
 				143F43C129921A3200812DD8 /* FishDetailViewController.swift in Sources */,
 				143F438E2992033900812DD8 /* SongPresenter.swift in Sources */,
+				14846C3E29934CE800DC2DD4 /* FishCollectionViewCell.swift in Sources */,
 				143F43B7299219DE00812DD8 /* BugDetailViewController.swift in Sources */,
 				143F439F299208FF00812DD8 /* VillagerRouter.swift in Sources */,
 				143F43902992034700812DD8 /* SongInteractor.swift in Sources */,
