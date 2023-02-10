@@ -9,6 +9,8 @@ import Foundation
 
 class MainVillagerRouter: AnyVillagerRouter
 {
+    var routeView: VillagerViewController?
+    
     static func create() -> AnyVillagerRouter {
         let route = MainVillagerRouter()
         
@@ -24,17 +26,11 @@ class MainVillagerRouter: AnyVillagerRouter
         presenter.view = view
         presenter.interactor = interactor
         
-        route.entry = view as? VillagerPage
-        
+        route.routeView = view as? VillagerViewController
         
         return route
     }
-    
-   
-    
-    var entry: VillagerPage?
-    
-   
+
     
 }
 

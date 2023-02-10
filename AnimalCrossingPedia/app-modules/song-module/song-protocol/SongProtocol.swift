@@ -32,10 +32,8 @@ protocol AnySongPresenter
     func DidFetchSongs(with result: Result<[Songs], Error>)
 }
 
-typealias SongPage = AnySongView & UIViewController
-
 protocol AnySongRouter
 {
-    var entry: SongPage? { get }
+    var songView: SongViewController? {get }
     static func create() -> AnySongRouter
 }

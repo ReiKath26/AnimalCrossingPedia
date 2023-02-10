@@ -11,13 +11,13 @@ class FishCollectionViewCell: UICollectionViewCell {
     
     static let identifier = "FishCollectionViewCell"
     
-    var fish: Fish
+    var fish: Fish?
     {
         didSet
         {
-            myLabel.text = fish.name.USName
+            myLabel.text = fish?.name.USName
             
-            guard let url = URL(string: fish.iconURL ?? "http://acnhapi.com/v1/icons/fish/" + String(fish?.id ?? 1)) else {return}
+            guard let url = URL(string: fish?.iconURL ?? "http://acnhapi.com/v1/icons/fish/" + String(fish?.id ?? 1)) else {return}
             let task = URLSession.shared.dataTask(with: url) { [weak self] data, _, error in
                 guard let data = data, error == nil else
                 {
@@ -25,7 +25,10 @@ class FishCollectionViewCell: UICollectionViewCell {
                     return
                 }
                 
-                self?.myImageView.image = UIImage(data: data)
+                DispatchQueue.main.async {
+                    self?.myImageView.image = UIImage(data: data)
+                }
+               
             }
             task.resume()
         }
@@ -57,7 +60,7 @@ class FishCollectionViewCell: UICollectionViewCell {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        myLabel.frame = CGRect(x: contentView.frame.size.width - (contentView.frame.size.width/3), y: 5, width: contentView.frame.size.width - (contentView.frame.size.width/3), height: contentView.frame.size.width/3)
+        myLabel.frame = CGRect(x: contentView.frame.size.width/3, y: 5, width: contentView.frame.size.width - (contentView.frame.size.width/3), height: contentView.frame.size.width/3)
         myImageView.frame = CGRect(x: 5, y: 5, width: contentView.frame.size.width/3, height: contentView.frame.size.width/3)
     }
     

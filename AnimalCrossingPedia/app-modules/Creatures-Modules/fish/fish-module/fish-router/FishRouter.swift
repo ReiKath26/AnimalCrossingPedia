@@ -9,7 +9,7 @@ import Foundation
 
 class FishRouter: AnyFishRouter
 {
-    var entry: FishPage?
+    var fishView: FishViewController?
     
     static func create() -> AnyFishRouter {
         let route = FishRouter()
@@ -26,7 +26,7 @@ class FishRouter: AnyFishRouter
         presenter.view = view
         presenter.interactor = interactor
         
-        route.entry = view as? FishPage
+        route.fishView = view as? FishViewController
         
         
         return route

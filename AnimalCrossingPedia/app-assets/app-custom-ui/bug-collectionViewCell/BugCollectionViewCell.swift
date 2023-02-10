@@ -25,7 +25,10 @@ class BugCollectionViewCell: UICollectionViewCell {
                     return
                 }
                 
-                self?.myImageView.image = UIImage(data: data)
+                DispatchQueue.main.async {
+                    self?.myImageView.image = UIImage(data: data)
+                }
+             
             }
             task.resume()
         }
@@ -57,7 +60,7 @@ class BugCollectionViewCell: UICollectionViewCell {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        myLabel.frame = CGRect(x: contentView.frame.size.width - (contentView.frame.size.width/3), y: 5, width: contentView.frame.size.width - (contentView.frame.size.width/3), height: contentView.frame.size.width/3)
+        myLabel.frame = CGRect(x: contentView.frame.size.width/3, y: 5, width: contentView.frame.size.width - (contentView.frame.size.width/3), height: contentView.frame.size.width/3)
         myImageView.frame = CGRect(x: 5, y: 5, width: contentView.frame.size.width/3, height: contentView.frame.size.width/3)
     }
     

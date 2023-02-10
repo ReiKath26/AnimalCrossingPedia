@@ -11,7 +11,7 @@ import UIKit
 
 class MainRouter: AnyMainRouter
 {
-    var entry: EntryPoint?
+    var entry: MainViewController?
     
     static func create() -> AnyMainRouter {
         let route = MainRouter()
@@ -28,7 +28,7 @@ class MainRouter: AnyMainRouter
         presenter.view = view
         presenter.interactor = interactor
         
-        route.entry = view as? EntryPoint
+        route.entry = view as? MainViewController
         
         
         return route
@@ -37,28 +37,28 @@ class MainRouter: AnyMainRouter
     func pushVillagerPage(navigationConroller navigationController:UINavigationController)
     {
         let villagerRouter = MainVillagerRouter.create()
-        guard let vc = villagerRouter.entry else {return}
-        navigationConroller.pushViewController(vc, animated: true)
+        guard let vc = villagerRouter.routeView else {return}
+        navigationController.pushViewController(vc, animated: true)
     }
     
     func pushFishPage(navigationConroller navigationController: UINavigationController)
     {
         let fishRouter = FishRouter.create()
-        guard let vc = fishRouter.entry else {return}
+        guard let vc = fishRouter.fishView else {return}
         navigationController.pushViewController(vc, animated: true)
     }
     
     func pushBugPage(navigationConroller navigationController: UINavigationController)
     {
         let bugRouter = BugRouter.createMainPage()
-        guard let vc = bugRouter.entry else {return}
+        guard let vc = bugRouter.bugView else {return}
         navigationController.pushViewController(vc, animated: true)
     }
     
     func pushSongPage(navigationConroller navigationController: UINavigationController)
     {
         let songRouter = SongRouter.create()
-        guard let vc = songRouter.entry else {return}
+        guard let vc = songRouter.songView else {return}
         navigationController.pushViewController(vc, animated: true)
     }
     

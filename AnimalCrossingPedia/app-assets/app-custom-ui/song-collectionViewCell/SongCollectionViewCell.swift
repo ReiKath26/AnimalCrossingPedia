@@ -25,7 +25,10 @@ class SongCollectionViewCell: UICollectionViewCell {
                     return
                 }
                 
-                self?.myImageView.image = UIImage(data: data)
+                DispatchQueue.main.async {
+                    self?.myImageView.image = UIImage(data: data)
+                }
+               
             }
             task.resume()
         }

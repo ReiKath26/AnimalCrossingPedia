@@ -32,11 +32,9 @@ protocol AnyVillagerPresenter
     func DidFetchVillagers(with result: Result<[Villager], Error>)
 }
 
-typealias VillagerPage = AnyVillagerView & UIViewController
-
 protocol AnyVillagerRouter
 {
-    var entry: VillagerPage? { get }
+    var routeView: VillagerViewController? { get }
     static func create() -> AnyVillagerRouter
 }
 

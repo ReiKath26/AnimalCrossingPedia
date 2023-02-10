@@ -9,7 +9,8 @@ import Foundation
 
 class BugRouter: AnyBugRouter
 {
-    var entry: BugPage?
+    var bugView: BugViewController?
+    
     
     static func createMainPage() -> AnyBugRouter {
         let route = BugRouter()
@@ -26,9 +27,8 @@ class BugRouter: AnyBugRouter
         presenter.view = view
         presenter.interactor = interactor
         
-        route.entry = view as? BugPage
-        
-        
+        route.bugView = view as? BugViewController
+    
         return route
     }
     

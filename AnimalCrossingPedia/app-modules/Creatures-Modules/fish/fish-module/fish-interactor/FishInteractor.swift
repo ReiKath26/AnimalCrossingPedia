@@ -12,7 +12,7 @@ class FishInteractor: AnyFishInteractor
     var presenter: AnyFishPresenter?
     
     func getFish() {
-        guard let url = URL(string: bugAPI) else {return}
+        guard let url = URL(string: fishAPI) else {return}
         let task = URLSession.shared.dataTask(with: url) { [weak self] data, _, error in
             guard let data = data, error == nil else
             {

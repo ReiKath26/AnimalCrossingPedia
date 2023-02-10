@@ -22,6 +22,7 @@ class VillagerInteractor: AnyVillagerInteractor
             
             do
             {
+              
                 let entities = try JSONDecoder().decode([Villager].self, from: data)
                 
                 self?.presenter?.DidFetchVillagers(with: .success(entities))

@@ -10,18 +10,26 @@ import UIKit
 class MainViewController: UIViewController, AnyMainView, UICollectionViewDelegate, UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+       
         switch indexPath.row
         {
+           
             case 0:
             presenter?.showVillagers(navigationController: navigationController!)
+            print("Click!")
             case 1:
             presenter?.showFishes(navigationController: navigationController!)
+            print("Click!")
             case 2:
             presenter?.showBugs(navigationController: navigationController!)
+            print("Click!")
             case 3:
             presenter?.showSongs(navigationController: navigationController!)
+            print("Click!")
             default:
             presenter?.showVillagers(navigationController: navigationController!)
+            print("Click!")
         }
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -56,7 +64,6 @@ class MainViewController: UIViewController, AnyMainView, UICollectionViewDelegat
         collectionView?.register(MainCollectionViewcell.self, forCellWithReuseIdentifier: MainCollectionViewcell.identifier)
         
         guard let collectionView = collectionView else {return}
-        view.backgroundColor = .systemBlue
         view.addSubview(collectionView)
         collectionView.delegate = self
         collectionView.dataSource = self

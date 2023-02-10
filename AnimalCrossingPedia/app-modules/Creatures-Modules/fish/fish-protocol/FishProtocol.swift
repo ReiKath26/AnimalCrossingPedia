@@ -31,11 +31,10 @@ protocol AnyFishPresenter
     func DidFetchAllFishes(with result: Result<[Fish], Error>)
 }
 
-typealias FishPage = AnyFishView & UIViewController
 
 protocol AnyFishRouter
 {
-    var entry: FishPage? { get }
+    var fishView: FishViewController? {get }
     static func create() -> AnyFishRouter
 }
 

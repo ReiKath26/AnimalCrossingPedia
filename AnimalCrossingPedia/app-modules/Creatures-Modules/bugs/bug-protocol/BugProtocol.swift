@@ -31,11 +31,9 @@ protocol AnyBugPresenter
     func DidFetchAllBugs(with result: Result<[Bugs], Error>)
 }
 
-typealias BugPage = AnyBugView & UIViewController
-
 protocol AnyBugRouter
 {
-    var entry: BugPage? { get }
+    var bugView: BugViewController? { get }
     static func createMainPage() -> AnyBugRouter
 }
 

@@ -9,8 +9,7 @@ import Foundation
 
 class SongRouter: AnySongRouter
 {
-    
-    var entry: SongPage?
+    var songView: SongViewController?
     
     static func create() -> AnySongRouter {
         let route = SongRouter()
@@ -27,7 +26,7 @@ class SongRouter: AnySongRouter
         presenter.view = view
         presenter.interactor = interactor
         
-        route.entry = view as? SongPage
+        route.songView = view as? SongViewController
         
         
         return route

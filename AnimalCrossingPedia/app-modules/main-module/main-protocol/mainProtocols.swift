@@ -45,11 +45,9 @@ protocol AnyMainPresenter
     func showSongs(navigationController: UINavigationController)
 }
 
-typealias EntryPoint = AnyMainView & UIViewController
-
 protocol AnyMainRouter
 {
-    var entry: EntryPoint? { get }
+    var entry: MainViewController? {get}
     static func create() -> AnyMainRouter
     
     func pushVillagerPage(navigationConroller:UINavigationController)
