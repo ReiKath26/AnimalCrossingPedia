@@ -29,12 +29,15 @@ protocol AnyBugPresenter
     var view: AnyBugView? {get set}
     
     func DidFetchAllBugs(with result: Result<[Bugs], Error>)
+    func seeBugsDetail(navigationController: UINavigationController, bug: Bugs)
 }
 
 protocol AnyBugRouter
 {
     var bugView: BugViewController? { get }
     static func createMainPage() -> AnyBugRouter
+    
+    func pushDetailPage(navigationConroller navigationController: UINavigationController, bug: Bugs)
 }
 
 

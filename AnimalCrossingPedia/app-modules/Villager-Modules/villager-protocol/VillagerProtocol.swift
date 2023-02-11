@@ -30,12 +30,15 @@ protocol AnyVillagerPresenter
     var view: AnyVillagerView? {get set}
     
     func DidFetchVillagers(with result: Result<[Villager], Error>)
+    func seeVillagerDetail(navigationController: UINavigationController, villager: Villager)
 }
 
 protocol AnyVillagerRouter
 {
     var routeView: VillagerViewController? { get }
     static func create() -> AnyVillagerRouter
+    
+    func pushDetailPage(navigationConroller navigationController: UINavigationController, villager: Villager)
 }
 
 

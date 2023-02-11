@@ -9,6 +9,8 @@ import UIKit
 
 class BugDetailViewController: UIViewController {
 
+    var bug: Bugs?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

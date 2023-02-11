@@ -29,6 +29,7 @@ protocol AnyFishPresenter
     var view: AnyFishView? {get set}
     
     func DidFetchAllFishes(with result: Result<[Fish], Error>)
+    func seeFishDetail(navigationController: UINavigationController, fish: Fish)
 }
 
 
@@ -36,6 +37,8 @@ protocol AnyFishRouter
 {
     var fishView: FishViewController? {get }
     static func create() -> AnyFishRouter
+    
+    func pushDetailPage(navigationConroller navigationController: UINavigationController, fish: Fish)
 }
 
 

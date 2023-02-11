@@ -6,9 +6,16 @@
 //
 
 import Foundation
+import UIKit
 
 class BugRouter: AnyBugRouter
 {
+    func pushDetailPage(navigationConroller navigationController: UINavigationController, bug: Bugs) {
+        let vc = BugDetailViewController(nibName: nil, bundle: nil)
+        vc.bug = bug
+        navigationController.pushViewController(vc, animated: true)
+    }
+    
     var bugView: BugViewController?
     
     

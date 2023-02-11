@@ -7,20 +7,25 @@
 
 import UIKit
 
-class VillagerDetailViewController: UIViewController, AnyVillagerView{
+class VillagerDetailViewController: UIViewController{
+    
+    var villager: Villager?
+    
+    private var villagerPhoto: UIImageView?
+    
+    private var villagerNameLbl: UILabel?
+    
+    private var genderSymbol: UIImageView?
+    
+    private var villagerCatchphraseLbl: UILabel?
+    
+    private var personalityLbl: UILabel?
+    
+    private var birthdayLbl: UILabel?
+    
+    private var spesiesLbl: UILabel?
     
     
-    var presenter: AnyVillagerPresenter?
-    
-    func update(with data: [Villager]) {
-        
-    }
-    
-    func update(with error: String) {
-        
-    }
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
 

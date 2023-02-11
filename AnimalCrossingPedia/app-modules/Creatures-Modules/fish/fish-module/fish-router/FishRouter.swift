@@ -6,9 +6,16 @@
 //
 
 import Foundation
+import UIKit
 
 class FishRouter: AnyFishRouter
 {
+    func pushDetailPage(navigationConroller navigationController: UINavigationController, fish: Fish) {
+        let vc = FishDetailViewController(nibName: nil, bundle: nil)
+        vc.fish = fish
+        navigationController.pushViewController(vc, animated: true)
+    }
+    
     var fishView: FishViewController?
     
     static func create() -> AnyFishRouter {

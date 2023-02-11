@@ -34,6 +34,7 @@
 		143FC21A2990AC52002E82EA /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143FC2192990AC52002E82EA /* MainInteractor.swift */; };
 		143FC21C2990AC5E002E82EA /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143FC21B2990AC5E002E82EA /* MainPresenter.swift */; };
 		143FC21F2990B366002E82EA /* MainEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143FC21E2990B366002E82EA /* MainEntity.swift */; };
+		147F2E5429974AE000C0907B /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F2E5329974AE000C0907B /* ColorExtension.swift */; };
 		14846C3829934C2900DC2DD4 /* VillagerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14846C3729934C2900DC2DD4 /* VillagerCollectionViewCell.swift */; };
 		14846C3E29934CE800DC2DD4 /* FishCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14846C3D29934CE800DC2DD4 /* FishCollectionViewCell.swift */; };
 		14846C4029934CF200DC2DD4 /* BugCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14846C3F29934CF200DC2DD4 /* BugCollectionViewCell.swift */; };
@@ -82,6 +83,7 @@
 		143FC2192990AC52002E82EA /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
 		143FC21B2990AC5E002E82EA /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		143FC21E2990B366002E82EA /* MainEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEntity.swift; sourceTree = "<group>"; };
+		147F2E5329974AE000C0907B /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		14846C3729934C2900DC2DD4 /* VillagerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillagerCollectionViewCell.swift; sourceTree = "<group>"; };
 		14846C3D29934CE800DC2DD4 /* FishCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishCollectionViewCell.swift; sourceTree = "<group>"; };
 		14846C3F29934CF200DC2DD4 /* BugCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -273,6 +275,14 @@
 			path = "main-collectionViewCell";
 			sourceTree = "<group>";
 		};
+		147F2E5229974AD300C0907B /* app-ui-extensions */ = {
+			isa = PBXGroup;
+			children = (
+				147F2E5329974AE000C0907B /* ColorExtension.swift */,
+			);
+			path = "app-ui-extensions";
+			sourceTree = "<group>";
+		};
 		14846C3629934C0F00DC2DD4 /* villager-collectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -345,6 +355,7 @@
 		14A2D05F298E80B20072FE2A /* app-assets */ = {
 			isa = PBXGroup;
 			children = (
+				147F2E5229974AD300C0907B /* app-ui-extensions */,
 				143FC2202990BC6B002E82EA /* app-custom-ui */,
 				14A2D03A298E5C010072FE2A /* Assets.xcassets */,
 				14A2D03C298E5C010072FE2A /* LaunchScreen.storyboard */,
@@ -685,6 +696,7 @@
 				143F43952992049800812DD8 /* VillagerProtocol.swift in Sources */,
 				143F43922992035100812DD8 /* SongProtocol.swift in Sources */,
 				14A2D083298E8A460072FE2A /* MainRouter.swift in Sources */,
+				147F2E5429974AE000C0907B /* ColorExtension.swift in Sources */,
 				14A2D05B298E61FC0072FE2A /* Name.swift in Sources */,
 				143F43992992086700812DD8 /* VillagerDetailViewController.swift in Sources */,
 				143FC21C2990AC5E002E82EA /* MainPresenter.swift in Sources */,

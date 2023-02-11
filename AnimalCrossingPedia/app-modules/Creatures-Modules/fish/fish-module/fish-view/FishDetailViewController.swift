@@ -7,17 +7,9 @@
 
 import UIKit
 
-class FishDetailViewController: UIViewController, AnyFishView{
-    var presenter: AnyFishPresenter?
-    
-    func update(with data: [Fish]) {
-        
-    }
-    
-    func update(with error: String) {
-        
-    }
-    
+class FishDetailViewController: UIViewController{
+  
+    var fish: Fish?
 
     override func viewDidLoad() {
         super.viewDidLoad()

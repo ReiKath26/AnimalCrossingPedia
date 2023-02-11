@@ -6,9 +6,14 @@
 //
 
 import Foundation
+import UIKit
 
 class FishPresenter: AnyFishPresenter
 {
+    func seeFishDetail(navigationController: UINavigationController, fish: Fish) {
+        router?.pushDetailPage(navigationConroller: navigationController, fish: fish)
+    }
+    
     var router: AnyFishRouter?
     
     var interactor: AnyFishInteractor?

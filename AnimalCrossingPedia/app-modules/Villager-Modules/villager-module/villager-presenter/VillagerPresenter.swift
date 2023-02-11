@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 class VillagerPresenter: AnyVillagerPresenter
 {
@@ -31,7 +32,10 @@ class VillagerPresenter: AnyVillagerPresenter
         }
     }
     
-    
+    func seeVillagerDetail(navigationController: UINavigationController, villager: Villager)
+    {
+        router?.pushDetailPage(navigationConroller: navigationController, villager: villager)
+    }
     
     
 }

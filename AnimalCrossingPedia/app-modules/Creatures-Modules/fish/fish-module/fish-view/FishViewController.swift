@@ -19,6 +19,9 @@ class FishViewController: UIViewController, AnyFishView, UICollectionViewDelegat
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        presenter?.seeFishDetail(navigationController: navigationController!, fish: fishes[indexPath.row])
+    }
     
     var presenter: AnyFishPresenter?
     

@@ -24,7 +24,6 @@ class MainCollectionViewcell: UICollectionViewCell {
         let lbl = UILabel()
         lbl.text = "Menu"
         lbl.textAlignment = .center
-        lbl.textColor = .init(red: 10/255, green: 154/255, blue: 0/255, alpha: 1)
         return lbl
     }()
     
@@ -41,13 +40,32 @@ class MainCollectionViewcell: UICollectionViewCell {
         didSet
         {
             myLabel.text = text
+            switch text
+            {
+                case "Villagers":
+                myLabel.textColor = UIColor.accentGreen
+                contentView.backgroundColor = UIColor.softGreen
+                case "Fishes":
+                myLabel.textColor = UIColor.accentYellow
+                contentView.backgroundColor = UIColor.softYellow
+                case "Bugs":
+                myLabel.textColor = UIColor.accentPink
+                contentView.backgroundColor = UIColor.softPink
+                case "Songs":
+                myLabel.textColor = UIColor.accentBrown
+                contentView.backgroundColor = UIColor.softBrown
+                default:
+                myLabel.textColor = UIColor.accentBrown
+                contentView.backgroundColor = UIColor.softBrown
+            }
         }
     }
 
 
     override init(frame: CGRect) {
         super.init(frame: frame)
-        contentView.backgroundColor = .init(red: 162/255, green: 222/255, blue: 158/255, alpha: 1)
+        
+    
         contentView.layer.cornerRadius = 10
         contentView.addSubview(myLabel)
         contentView.addSubview(myImageView)

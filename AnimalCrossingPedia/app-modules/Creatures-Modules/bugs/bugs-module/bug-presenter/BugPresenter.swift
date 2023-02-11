@@ -6,9 +6,14 @@
 //
 
 import Foundation
+import UIKit
 
 class BugPresenter: AnyBugPresenter
 {
+    func seeBugsDetail(navigationController: UINavigationController, bug: Bugs) {
+        router?.pushDetailPage(navigationConroller: navigationController, bug: bug)
+    }
+    
     var router: AnyBugRouter?
     
     var interactor: AnyBugInteractor?

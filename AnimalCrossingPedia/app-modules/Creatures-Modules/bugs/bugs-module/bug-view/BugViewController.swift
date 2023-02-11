@@ -20,6 +20,9 @@ class BugViewController: UIViewController, AnyBugView, UICollectionViewDelegate,
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        presenter?.seeBugsDetail(navigationController: navigationController!, bug: bugs[indexPath.row])
+    }
     
     var presenter: AnyBugPresenter?
     

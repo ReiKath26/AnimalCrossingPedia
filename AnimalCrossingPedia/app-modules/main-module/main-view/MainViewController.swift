@@ -11,23 +11,23 @@ class MainViewController: UIViewController, AnyMainView, UICollectionViewDelegat
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
-       
+        
         switch indexPath.row
         {
-           
-            case 0:
+            
+        case 0:
             presenter?.showVillagers(navigationController: navigationController!)
             print("Click!")
-            case 1:
+        case 1:
             presenter?.showFishes(navigationController: navigationController!)
             print("Click!")
-            case 2:
+        case 2:
             presenter?.showBugs(navigationController: navigationController!)
             print("Click!")
-            case 3:
+        case 3:
             presenter?.showSongs(navigationController: navigationController!)
             print("Click!")
-            default:
+        default:
             presenter?.showVillagers(navigationController: navigationController!)
             print("Click!")
         }
@@ -47,6 +47,24 @@ class MainViewController: UIViewController, AnyMainView, UICollectionViewDelegat
     var presenter: AnyMainPresenter?
     
     private var collectionView: UICollectionView?
+    
+    private var titleLbl: UILabel =
+    {
+        let lbl = UILabel()
+        lbl.text = "Welcome to Animal Crossing Pedia!"
+        lbl.font = .systemFont(ofSize: 50)
+        lbl.textColor = UIColor.accentGreen
+        return lbl
+    }()
+    
+    private var contentLbl: UILabel =
+    {
+        let lbl = UILabel()
+        lbl.text = "Find any Animal Crosing info you need here!"
+        lbl.font = .systemFont(ofSize: 20)
+        lbl.textColor = UIColor.lightGray
+        return lbl
+    }()
     
     var menus: [menu] = []
     

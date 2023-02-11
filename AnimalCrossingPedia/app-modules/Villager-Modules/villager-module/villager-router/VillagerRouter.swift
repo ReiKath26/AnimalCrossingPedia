@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 class MainVillagerRouter: AnyVillagerRouter
 {
@@ -29,6 +30,13 @@ class MainVillagerRouter: AnyVillagerRouter
         route.routeView = view as? VillagerViewController
         
         return route
+    }
+    
+    func pushDetailPage(navigationConroller navigationController: UINavigationController, villager: Villager)
+    {
+        let vc = VillagerDetailViewController(nibName: nil, bundle: nil)
+        vc.villager = villager
+        navigationController.pushViewController(vc, animated: true)
     }
 
     

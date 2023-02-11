@@ -19,6 +19,9 @@ class VillagerViewController: UIViewController, AnyVillagerView, UICollectionVie
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        presenter?.seeVillagerDetail(navigationController: navigationController!, villager: villager[indexPath.row])
+    }
     
     var presenter: AnyVillagerPresenter?
     
@@ -51,6 +54,10 @@ class VillagerViewController: UIViewController, AnyVillagerView, UICollectionVie
             self.errorImage.isHidden = true
             self.villagerCollectionView?.isHidden = false
             self.villager = data
+            
+            self.villager.sort {
+                $0.name.USName < $1.name.USName
+            }
             self.villagerCollectionView?.reloadData()
         }
     }
